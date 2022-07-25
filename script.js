@@ -10,7 +10,7 @@ passwordInput = document.querySelector("#password");
 copyBtn = document.querySelector("#copy");
 
 const lowerCase = "abcdefghijklmnopqrstuvwxyz";
-const symbol = `&é"'(-è_çà)=~#{[|\\^@]}°+*$µ£/.;,`;
+const symbol = `&é"'(-è_çà)=~#{[|\\^@]}°+*$µ£/.;,<>\``;
 const number = "0123456789";
 const upperCase = lowerCase.toUpperCase();
 
